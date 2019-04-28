@@ -1,0 +1,57 @@
+.container {
+    display: flex;
+}
+
+.section {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 16px;
+}
+
+.crimson {
+    background-color: crimson;
+}
+
+.coral {
+    background-color: coral;
+}
+
+.todo {
+    padding: 17px;
+    color: #777;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid #ccc;
+    box-shadow: 1px 2px 5px #bbb;
+    border-radius: 20px;
+    display: block;
+}
+
+.input-content {
+    padding: 8px;
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+.input-content:focus{
+ outline: none;
+}
+
+.bt {
+    display: block;
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: thistle;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.bt:hover {
+    opacity: 0.7;
+}
+.bt:focus{
+    outline: none;
+}
